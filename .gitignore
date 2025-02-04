@@ -4,3 +4,4 @@ build/
 info_info_info
 initial.html
 jte-classes/
+src/main/resources/db/testdb.mv.db
