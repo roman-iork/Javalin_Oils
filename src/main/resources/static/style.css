@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #a5806e; /* Light brown */
+}
+
+.container {
+    width: 95%;
+    height: 95%;
+    background-color: #a5806e; /* Same as main background */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Yellow horizontal bar */
+.horizontal-bar {
+    width: 100%;
+    height: 8%;
+    background-color: #d5a100; /* Yellow */
+    position: absolute;
+    left: 0%;
+    top: 5%;
+
+    display: flex;
+    align-items: center; /* Vertically center the form */
+    justify-content: flex-start; /* Align the form to the left */
+    padding-left: 20px; /* Optional: Add some space from the left */
+}
+
+/* Rounded rectangle on the right */
+.rounded-rectangle {
+    width: 40%;
+    height: 50%;
+    background-color: #c6c3a5; /* Light gray-beige */
+    border-radius: 15px;
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.rightish {
+    padding-right: 100px;
+}
